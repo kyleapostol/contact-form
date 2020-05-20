@@ -7,7 +7,6 @@ import RaisedButton from 'material-ui/RaisedButton';
 export default class Form extends React.Component{
     
     render(){    
-        
         return(
             <MuiThemeProvider>
                 <React.Fragment>
@@ -25,11 +24,8 @@ export default class Form extends React.Component{
                     <TextField
                         multiline='true'
                         rows={4}
-                        // defaultValue="Message"
-                        // variant="outlined"
                         hintText="Enter Your Message"
                         floatingLabelText="Message"
-                        // variant="outlined"
                     />
                     <br/>
                     <RaisedButton

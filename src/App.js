@@ -1,7 +1,6 @@
 import React from 'react';
 import Form from './components/Form'
 import Success from './components/Success'
-import './App.css';
 
 function App() {
   return (
